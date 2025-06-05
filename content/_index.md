@@ -1,5 +1,5 @@
 ---
-title: 企小码会话存档
+title: 企小码使用文档
 toc: false
 ---
 
@@ -15,3 +15,9 @@ This is the landing page.
 ## Documentation
 
 For more information, visit [Hextra](https://imfing.github.io/hextra).
+  {{< hextra/feature-card
+    title="Longhorn"
+    subtitle="Lightweight, reliable, and powerful distributed block storage system for Kubernetes."
+    link="https://longhorn.io"
+  >}}
+{{< /hextra/feature-grid >}}
