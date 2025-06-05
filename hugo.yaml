@@ -24,23 +24,21 @@ menu:
     - name: About
       pageRef: /about
       weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
-      weight: 3
     - name: Search
-      weight: 4
+      weight: 3
       params:
         type: search
-    - name: GitHub
+    - name: SaaS ↗
+      weight: 4
+      url: "https://www.huihuacundang.com/"
+    - name: 私有化 ↗
       weight: 5
+      url: "https://www.huihuacundang.cn/"
+    - name: GitHub
+      weight: 6
       url: "https://github.com/imfing/hextra-starter-template"
       params:
         icon: github
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
-      params:
-        icon: x-twitter
 
 params:
   navbar:
@@ -53,4 +51,4 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    base: "https://github.com/vvvvTvT/vvvvTvT.github.io/edit/main/content"
